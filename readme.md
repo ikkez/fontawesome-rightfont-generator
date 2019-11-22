@@ -1,9 +1,9 @@
-###FontAwesome 5 Pro IconSet Generator for RightFont5
+## Font Awesome 5 Pro IconSet Generator for RightFont 5
 
 ![RightFont5](https://ikkez.de/linked/fontawesome-gen.png)
 
 
-This package is used for generating (FontAwesome 5 Pro)[https://github.com/FortAwesome/Font-Awesome-Pro] font library files for the (RightFont)[https://rightfontapp.com/] font manager app on MacOS.
+This package is used for generating (Font Awesome 5 Pro)[https://github.com/FortAwesome/Font-Awesome-Pro] font library files for the (RightFont)[https://rightfontapp.com/] font manager app on MacOS.
 That way you can use all Pro icons in your design and prototyping tools with ease.
 
 #### Usage:
