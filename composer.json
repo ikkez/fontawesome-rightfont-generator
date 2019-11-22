@@ -1,0 +1,13 @@
+{
+    "name": "ikkez/font-awesome-pro-rightfont",
+    "require": {
+        "bcosca/fatfree-core": "^3.6",
+        "mustangostang/spyc": "^0.6.3"
+    },
+    "authors": [
+        {
+            "name": "ikkez",
+            "email": "ikkez0n3@gmail.com"
+        }
+    ]
+}
