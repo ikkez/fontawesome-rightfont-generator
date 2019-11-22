@@ -3,7 +3,7 @@
 ![RightFont5](https://ikkez.de/linked/fontawesome-gen.png)
 
 
-This package is used for generating (Font Awesome 5 Pro)[https://github.com/FortAwesome/Font-Awesome-Pro] font library files for the (RightFont)[https://rightfontapp.com/] font manager app on MacOS.
+This package is used for generating [Font Awesome 5 Pro](https://github.com/FortAwesome/Font-Awesome-Pro) font library files for the [RightFont](https://rightfontapp.com/) font manager app on MacOS.
 That way you can use all Pro icons in your design and prototyping tools with ease.
 
 #### Usage:
@@ -20,7 +20,7 @@ That way you can use all Pro icons in your design and prototyping tools with eas
 
 6.  Copy all generated `.rightfontmetadata` files to your icon font library at: `~/RightFont/Icon Fonts.rightfontlibrary/metadata/fonts/`
 
-7.  Copy the font-awesome font files (fa-brands-400.ttf, fa-duotone-900.ttf, fa-light-300.ttf,fa-regular-400.ttf,fa-solid-900.ttf) to `.rightfontmetadata` files to `~/RightFont/Icon Fonts.rightfontlibrary/fonts/Font Awesome 5 Pro/`
+7.  Copy the font-awesome font files (`fa-brands-400.ttf`, `fa-duotone-900.ttf`, `fa-light-300.ttf`, `fa-regular-400.ttf`, `fa-solid-900.ttf`) to `~/RightFont/Icon Fonts.rightfontlibrary/fonts/Font Awesome 5 Pro/`
 
 8.  Restart RightFont. Enjoy.
 
