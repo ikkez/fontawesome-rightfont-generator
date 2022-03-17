@@ -49,6 +49,14 @@ $f3->route('GET /generate [cli]',function( Base $f3, $params) {
 		'duotone' => 'fa-duotone-900.ttf',
 		'brands' => 'fa-brands-400.ttf',
 	];
+	$indexStart = [
+		'thin' => 1,
+		'solid' => 1,
+		'regular' => 1,
+		'light' => 1,
+		'duotone' => 1,
+		'brands' => 39,
+	];
 
 	foreach ($files as $type => $file) {
 
@@ -82,7 +90,7 @@ $f3->route('GET /generate [cli]',function( Base $f3, $params) {
 			"fullName" => "Font Awesome 6 Pro ".$label,
 			"created" => microtime(true)
 		];
-		$excluded = ['f4e6'];
+		$excluded = ['e2d0'];
 		$glyphs = [];
 		foreach ($iconData as $name => $config) {
 			if (in_array($type,$config['styles']) && !in_array($config['unicode'],$excluded)) {
@@ -97,7 +105,7 @@ $f3->route('GET /generate [cli]',function( Base $f3, $params) {
 		sort($glyphs);
 		$glyphs = array_values($glyphs);
 		foreach ($glyphs as $index => &$value) {
-			$value['index'] = $index + 3;
+			$value['index'] = $index + $indexStart[$type];
 			unset($value);
 		}
 		$out['glyphs'] = $glyphs;
