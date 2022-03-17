@@ -8,6 +8,10 @@ That way you can use all Pro icons in your design and prototyping tools with eas
 
 #### Usage:
 
+You can use the included `FontAwesome6Pro-*.rightfontmetadata` files in this package without downloading, installing and running this script.
+
+#### Convert yourself:
+
 1.  Download this package. This script is written in PHP, so you need PHP installed on your machine.
 
 2.  Download FontAwesome Pro. You need a pro licence to get access to that.
