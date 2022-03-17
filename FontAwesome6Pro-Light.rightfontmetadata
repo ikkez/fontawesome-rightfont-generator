@@ -5,10 +5,10 @@
     "familyGroup": "Font Awesome 6 Pro Light",
     "postscriptName": "FontAwesome6Pro-Light",
     "isRegularStyle": 0,
-    "modified": 1647510967.132709,
+    "modified": 1647511824.35185,
     "modifiedBy": "",
     "kind": "RFFont",
-    "uuid": "FontAwesome5Pro-Light",
+    "uuid": "FontAwesome6Pro-Light",
     "category": 9,
     "version": "330.498 (Font Awesome version: 6.1.0)",
     "name": "FontAwesome6Pro-Light",
@@ -25,7 +25,7 @@
     "notes": "The web's most popular icon set and toolkit.",
     "copyright": "Copyright (c) Font Awesome",
     "fullName": "Font Awesome 6 Pro Light",
-    "created": 1647510967.132712,
+    "created": 1647511824.351853,
     "glyphs": [
         {
             "index": 3,

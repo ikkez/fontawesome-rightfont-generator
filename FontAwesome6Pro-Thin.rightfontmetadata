@@ -5,10 +5,10 @@
     "familyGroup": "Font Awesome 6 Pro Thin",
     "postscriptName": "FontAwesome6Pro-Thin",
     "isRegularStyle": 0,
-    "modified": 1647510967.061661,
+    "modified": 1647511824.299805,
     "modifiedBy": "",
     "kind": "RFFont",
-    "uuid": "FontAwesome5Pro-Thin",
+    "uuid": "FontAwesome6Pro-Thin",
     "category": 9,
     "version": "330.498 (Font Awesome version: 6.1.0)",
     "name": "FontAwesome6Pro-Thin",
@@ -25,7 +25,7 @@
     "notes": "The web's most popular icon set and toolkit.",
     "copyright": "Copyright (c) Font Awesome",
     "fullName": "Font Awesome 6 Pro Thin",
-    "created": 1647510967.061665,
+    "created": 1647511824.299808,
     "glyphs": [
         {
             "index": 3,

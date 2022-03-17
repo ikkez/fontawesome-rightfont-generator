@@ -5,10 +5,10 @@
     "familyGroup": "Font Awesome 6 Pro Brands",
     "postscriptName": "FontAwesome6Pro-Brands",
     "isRegularStyle": 0,
-    "modified": 1647510967.18768,
+    "modified": 1647511824.385748,
     "modifiedBy": "",
     "kind": "RFFont",
-    "uuid": "FontAwesome5Pro-Brands",
+    "uuid": "FontAwesome6Pro-Brands",
     "category": 9,
     "version": "330.498 (Font Awesome version: 6.1.0)",
     "name": "FontAwesome6Pro-Brands",
@@ -25,7 +25,7 @@
     "notes": "The web's most popular icon set and toolkit.",
     "copyright": "Copyright (c) Font Awesome",
     "fullName": "Font Awesome 6 Pro Brands",
-    "created": 1647510967.187685,
+    "created": 1647511824.385751,
     "glyphs": [
         {
             "index": 3,

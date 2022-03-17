@@ -5,10 +5,10 @@
     "familyGroup": "Font Awesome 6 Pro Duotone",
     "postscriptName": "FontAwesome6Pro-Duotone",
     "isRegularStyle": 0,
-    "modified": 1647510967.155826,
+    "modified": 1647511824.3694,
     "modifiedBy": "",
     "kind": "RFFont",
-    "uuid": "FontAwesome5Pro-Duotone",
+    "uuid": "FontAwesome6Pro-Duotone",
     "category": 9,
     "version": "330.498 (Font Awesome version: 6.1.0)",
     "name": "FontAwesome6Pro-Duotone",
@@ -25,7 +25,7 @@
     "notes": "The web's most popular icon set and toolkit.",
     "copyright": "Copyright (c) Font Awesome",
     "fullName": "Font Awesome 6 Pro Duotone",
-    "created": 1647510967.155831,
+    "created": 1647511824.369403,
     "glyphs": [
         {
             "index": 3,

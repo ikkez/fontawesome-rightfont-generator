@@ -63,7 +63,7 @@ $f3->route('GET /generate [cli]',function( Base $f3, $params) {
 			"modified" => microtime(true),
 			"modifiedBy" => "",
 			"kind" => "RFFont",
-			"uuid" => "FontAwesome5Pro-".$label,
+			"uuid" => "FontAwesome6Pro-".$label,
 			"category" => 9,
 			"version" => "330.498 (Font Awesome version: 6.1.0)",
 			"name" => "FontAwesome6Pro-".$label,
@@ -112,7 +112,7 @@ $f3->route('GET /generate [cli]',function( Base $f3, $params) {
 	echo "Copy the ´.rightfontmetadata´ files to your RightFont library at:"."\n"."\n"
 		." ~/RightFont/Icon Fonts.rightfontlibrary/metadata/fonts/"."\n"."\n";
 	echo "And copy the ´fa-*.ttf´ files as well to:"."\n"."\n"
-		." ~/RightFont/Icon Fonts.rightfontlibrary/fonts/Font Awesome 5 Pro/"."\n"."\n";
+		." ~/RightFont/Icon Fonts.rightfontlibrary/fonts/Font Awesome 6 Pro/"."\n"."\n";
 
 });
 
