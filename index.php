@@ -14,7 +14,7 @@ $f3->route('GET /',function($f3){
 <title>Rightfont ICON Set Generator for Font Awesome Pro</title>
 </head>
 <body>
-<h1>Rightfont 5 Icon Set Generator for FontAwesome 5 Pro</h1>
+<h1>Rightfont 6 Icon Set Generator for FontAwesome 6 Pro</h1>
 <p>From your console run: <br><br><code>php index.php generate</code></p>
 </body>
 </html>
@@ -42,43 +42,44 @@ $f3->route('GET /generate [cli]',function( Base $f3, $params) {
 	echo "Icon schema loaded successfully"."\n";
 
 	$files = [
-		'brands' => 'fa-brands-400.ttf',
-		'duotone' => 'fa-duotone-900.ttf',
-		'light' => 'fa-light-300.ttf',
-		'regular' => 'fa-regular-400.ttf',
+		'thin' => 'fa-thin-100.ttf',
 		'solid' => 'fa-solid-900.ttf',
+		'regular' => 'fa-regular-400.ttf',
+		'light' => 'fa-light-300.ttf',
+		'duotone' => 'fa-duotone-900.ttf',
+		'brands' => 'fa-brands-400.ttf',
 	];
 
 	foreach ($files as $type => $file) {
 
 		$label = ucfirst($type);
 		$out = [
-			"location" => "Font Awesome 5 Pro/".$file,
+			"location" => "Font Awesome 6 Pro/".$file,
 			"style" => $label,
 			"weight" => 0,
-			"familyGroup" => "Font Awesome 5 Pro ".$label,
-			"postscriptName" => "FontAwesome5Pro-".$label,
+			"familyGroup" => "Font Awesome 6 Pro ".$label,
+			"postscriptName" => "FontAwesome6Pro-".$label,
 			"isRegularStyle" => 0,
 			"modified" => microtime(true),
 			"modifiedBy" => "",
 			"kind" => "RFFont",
 			"uuid" => "FontAwesome5Pro-".$label,
 			"category" => 9,
-			"version" => "330.498 (Font Awesome version: 5.11.2)",
-			"name" => "FontAwesome5Pro-".$label,
+			"version" => "330.498 (Font Awesome version: 6.1.0)",
+			"name" => "FontAwesome6Pro-".$label,
 			"fileName" => $file,
 			"createdBy" => "",
 			"vendorURL" => "https://fontawesome.com",
 			"starred" => 0,
 			"isItalicStyle" => 0,
-			"family" => "Font Awesome 5 Pro",
+			"family" => "Font Awesome 6 Pro",
 			"encodingValue" => 0,
 			"format" => 3,
 			"popularity" => 0,
 			"width" => 0,
 			"notes" => "The web's most popular icon set and toolkit.",
 			"copyright" => "Copyright (c) Font Awesome",
-			"fullName" => "Font Awesome 5 Pro ".$label,
+			"fullName" => "Font Awesome 6 Pro ".$label,
 			"created" => microtime(true)
 		];
 		$excluded = ['f4e6'];
@@ -102,7 +103,7 @@ $f3->route('GET /generate [cli]',function( Base $f3, $params) {
 		$out['glyphs'] = $glyphs;
 		$data = json_encode($out,JSON_PRETTY_PRINT);
 
-		$fileName = 'FontAwesome5Pro-'.$label.'.rightfontmetadata';
+		$fileName = 'FontAwesome6Pro-'.$label.'.rightfontmetadata';
 		echo "exporting file: ".$fileName."\n";
 
 		$f3->write($fileName,$data);

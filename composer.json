@@ -1,7 +1,7 @@
 {
     "name": "ikkez/font-awesome-pro-rightfont",
     "require": {
-        "bcosca/fatfree-core": "^3.6",
+        "bcosca/fatfree-core": "^3.8",
         "mustangostang/spyc": "^0.6.3"
     },
     "authors": [
